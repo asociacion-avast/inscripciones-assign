@@ -1,0 +1,3 @@
+*.json
+sorteo/*.txt
+__pycache__/
