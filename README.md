@@ -20,12 +20,13 @@ echo '32768' > .sorteoseed
 
 ## Descripción de los scripts
 
-| Script           | Función                                                                                          |
-| ---------------- | ------------------------------------------------------------------------------------------------ |
-| `sorteo.py`      | Procesa la lista de socios, actividades e intereses para hacer las asignaciones de grupos        |
-| `sorteo-fill.py` | para uso INTERNO: Crea entradas para simular la selección de los socios en cuanto a actividades. |
+| Script                     | Función                                                                                                                       |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `asignar.py`               | Procesa la lista de socios, actividades e intereses para hacer las asignaciones de grupos                                     |
+| `TEST-interes-fill.py`     | para uso INTERNO: Crea entradas para simular la selección de los socios en cuanto a actividades.                              |
+| `TEST-importa-talleres.py` | para uso INTERNO: Importa talleres actualmente inscritos para pre-rellenar la lista de inscritos y saber las vacantes reales. |
 
-`sorteo.py` lee a cada ejecución los datos y realiza la asignación de un grupo a cada ejecución siguiendo el orden de preferencias indicado.
+`asignar.py` lee a cada ejecución los datos y realiza la asignación de un grupo a cada ejecución siguiendo el orden de preferencias indicado.
 
 Tras cuatro ejecuciones, en caso de haber plazas, el usuario tendrá cuatro talleres de su lista asignados.
 
@@ -37,9 +38,9 @@ El script utiliza un método de ordenación `Durstenfeld` para aleatorizar la li
 
 - Rellenar `.sorteoseed` con el número premiado del día escogido
 - Descargar el fichero con las selecciones de socios y el fichero de actividades
-- Ejecutar el script `sorteo.py` para que se realice la primera ronda de asignaciones y repetir alterando las selecciones de socios y semillas para cada ejecución.
+- Ejecutar el script `asignar.py` para que se realice la primera ronda de asignaciones y repetir alterando las selecciones de socios y semillas para cada ejecución.
 
-El código del programa `sorteo.py` está documentado para que con mínimas nociones se entienda lo que se hace en cada paso
+El código del programa `asignar.py` está documentado para que con mínimas nociones se entienda lo que se hace en cada paso
 
 ### Ejemplo de preferencias de socios y ejecución
 
@@ -119,7 +120,7 @@ Listado parcial
 #### 1ª sorteo
 
 ```sh
-./sorteo.py
+./asignar.py
 Procesando listado general de actividades
 Procesando fichero general de socios
 Total socios a asignar:  979
