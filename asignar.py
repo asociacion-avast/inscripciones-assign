@@ -2,6 +2,7 @@
 import os
 import pprint
 import random
+import re
 
 import dateutil.parser
 
@@ -31,9 +32,12 @@ def graba_log(filename, data):
         return True
 
 
+actividades_nombre = {}
+
 # Construir diccionario de actividades o reutilizar el anterior
 try:
     actividades = common.readjson(filename="sorteo-actividades")
+    actividades_nombre = common.readjson(filename="sorteo-actividades-nombre")
 except Exception:
     print("Procesando listado general de actividades")
     actividades_json = common.readjson(filename="actividades")
@@ -42,6 +46,11 @@ except Exception:
     # Procesar las actividades para generar lista de horarios y años de nacimiento, así como plazas e inscritos
     for actividad in actividades_json:
         idactividad = f'{int(actividad["idActivitat"])}'
+        actividades_nombre[idactividad] = (
+            " ".join(
+                re.sub(r"grupo .", "", actividad["nom"].split("(")[0]).rstrip().split()
+            )
+        ).lower()
         horario = int(actividad["idNivell"])
 
         if horario in {7, 8, 9, 10}:
@@ -206,6 +215,11 @@ for socio in sorted_socios:
         if socio not in horarios_por_socio:
             horarios_por_socio[socio] = []
 
+        graba_log(
+            filename=f"sorteo/{socio}",
+            data="El socio está inscrito en %s\n" % inscripciones_por_socio[socio],
+        )
+
         for interes in socios[socio]:
             if interes not in inscripciones_por_actividad:
                 inscripciones_por_actividad[interes] = []
@@ -247,19 +261,40 @@ for socio in sorted_socios:
                                     data="El socio no tiene conflictos de horario para %s\n"
                                     % interes,
                                 )
-                                # No hay conflicto de horario con otras inscripciones
-                                actividades[interes]["inscritos"].append(socio)
-                                inscripciones_por_actividad[interes].append(socio)
 
-                                inscripciones_por_socio[socio].append(interes)
-                                horarios_por_socio[socio].append(
-                                    actividades[interes]["horario"]
-                                )
-                                keep_running = False
-                                graba_log(
-                                    filename=f"sorteo/{socio}",
-                                    data="Socio %s INSCRITO en %s\n" % (socio, interes),
-                                )
+                                # Comprobar si hay conflicto de nombre en la actividad
+                                conflictonombres = False
+                                for activi in inscripciones_por_socio[socio]:
+                                    if (
+                                        actividades_nombre[interes]
+                                        == actividades_nombre[activi]
+                                    ):
+                                        conflictonombres = True
+                                        graba_log(
+                                            filename=f"sorteo/{socio}",
+                                            data="Actividad %s inscrita con otro nombre %s (%s)\n"
+                                            % (
+                                                interes,
+                                                activi,
+                                                actividades_nombre[interes],
+                                            ),
+                                        )
+
+                                if not conflictonombres:
+                                    # No hay conflicto de horario con otras inscripciones
+                                    actividades[interes]["inscritos"].append(socio)
+                                    inscripciones_por_actividad[interes].append(socio)
+
+                                    inscripciones_por_socio[socio].append(interes)
+                                    horarios_por_socio[socio].append(
+                                        actividades[interes]["horario"]
+                                    )
+                                    keep_running = False
+                                    graba_log(
+                                        filename=f"sorteo/{socio}",
+                                        data="Socio %s INSCRITO en %s\n"
+                                        % (socio, interes),
+                                    )
                             else:
                                 graba_log(
                                     filename=f"sorteo/{socio}",
@@ -297,6 +332,7 @@ common.writejson(
 )
 common.writejson(filename="sorteo-horarios_por_socio", data=horarios_por_socio)
 common.writejson(filename="sorteo-actividades", data=actividades)
+common.writejson(filename="sorteo-actividades-nombre", data=actividades_nombre)
 
 
 # Resultados de inscripciones por actividad e inscripcones por socio
