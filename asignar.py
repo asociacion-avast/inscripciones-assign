@@ -25,7 +25,7 @@ def durstenfeld_shuffle(arr):
     return arr
 
 
-def grabalog(filename, data):
+def graba_log(filename, data):
     with open(f"{filename}.log", "a", encoding="utf-8") as f:
         f.write(data)
         return True
@@ -34,13 +34,13 @@ def grabalog(filename, data):
 # Construir diccionario de actividades o reutilizar el anterior
 try:
     actividades = common.readjson(filename="sorteo-actividades")
-except:
+except Exception:
     print("Procesando listado general de actividades")
-    actividadesjson = common.readjson(filename="actividades")
+    actividades_json = common.readjson(filename="actividades")
 
     actividades = {}
     # Procesar las actividades para generar lista de horarios y años de nacimiento, así como plazas e inscritos
-    for actividad in actividadesjson:
+    for actividad in actividades_json:
         idactividad = f'{int(actividad["idActivitat"])}'
         horario = int(actividad["idNivell"])
 
@@ -64,15 +64,15 @@ except:
                 "horario": horario,
             }
 
-idsactividad = list(actividades)
+ids_actividad = list(actividades)
 # Ordenar las actividades por ID
-idsactividad = sorted(set(idsactividad))
+ids_actividad = sorted(set(ids_actividad))
 
 
 # Leer el listado de socios y edades
 try:
     mis_socios = common.readjson(filename="sorteo-socios")
-except:
+except Exception:
     # TEST, leer lista de socios y procesar los activos y de alta
     print("Procesando fichero general de socios")
     mis_socios = {}
@@ -80,7 +80,7 @@ except:
 
     for socio in sociosjson:
         id_socio = f'{int(socio["idColegiat"])}'
-        grabalog(filename=f"sorteo/{id_socio}", data="Comienzo del proceso\n")
+        graba_log(filename=f"sorteo/{id_socio}", data="Comienzo del proceso\n")
 
         if (
             "estat" in socio
@@ -89,7 +89,7 @@ except:
             and socio["estatColegiat"]["nom"] == "ESTALTA"
         ):
             tieneactivi = False
-            grabalog(
+            graba_log(
                 filename=f"sorteo/{id_socio}",
                 data="Socio está dado de alta y validado\n",
             )
@@ -106,7 +106,7 @@ except:
                             "actividades".lower() in modalitat_nombre
                             and "sin actividades".lower() not in modalitat_nombre
                         ):
-                            grabalog(
+                            graba_log(
                                 filename=f"sorteo/{id_socio}",
                                 data="Socio tiene actividades\n",
                             )
@@ -118,12 +118,12 @@ except:
                             mis_socios[id_socio]["nacim"] = fecha.year
 
             else:
-                grabalog(
+                graba_log(
                     filename=f"sorteo/{id_socio}",
                     data="Socio no está dado de alta y/o validado\n",
                 )
             if not tieneactivi:
-                grabalog(
+                graba_log(
                     filename=f"sorteo/{id_socio}", data="Socio NO tiene actividades\n"
                 )
 
@@ -153,8 +153,8 @@ for socio in mis_socios:
                 interes = f"{int(linea.strip())}"
                 socios[socio].append(interes)
 
-            grabalog(
-                filename="sorteo/%s" % socio,
+            graba_log(
+                filename=f"sorteo/{socio}",
                 data="Preferencias de socio: %s\n" % " ".join(socios[socio]),
             )
 
@@ -164,7 +164,7 @@ for socio in socios_a_borrar:
     del socios[socio]
 
 # Ordenar id's de socio usando el algoritmo de ordenación
-sortedsocios = durstenfeld_shuffle(id_socios)
+sorted_socios = durstenfeld_shuffle(id_socios)
 
 # Procesar inscripciones
 
@@ -173,27 +173,29 @@ try:
     inscripciones_por_actividad = common.readjson(
         filename="sorteo-inscripciones_por_actividad"
     )
-except:
+
+except Exception:
     print("Fallo leyendo inscripciones por actividad previos")
     inscripciones_por_actividad = {}
 
 try:
     inscripciones_por_socio = common.readjson(filename="sorteo-inscripciones_por_socio")
 
-except:
+except Exception:
     print("Fallo leyendo inscripciones por socio previas")
     inscripciones_por_socio = {}
 
 try:
     horarios_por_socio = common.readjson(filename="sorteo-horarios_por_socio")
-except:
+
+except Exception:
     print("Fallo leyendo horarios por socio previos")
     horarios_por_socio = {}
 
 
 # Asignar plazas
-
-for socio in sortedsocios:
+print("Asignando plazas a socios")
+for socio in sorted_socios:
     # Validar que el socio está en el listado con intereses
     if socio in socios:
         # Preparar si no existen listado de inscripciones de cada socio y horarios ocupados y las inscripciones de cada actividad
@@ -212,15 +214,15 @@ for socio in sortedsocios:
                     len(actividades[interes]["inscritos"])
                     < actividades[interes]["maxplazas"]
                 ):
-                    grabalog(
-                        filename="sorteo/%s" % socio,
+                    graba_log(
+                        filename=f"sorteo/{socio}",
                         data="El socio tiene interés en %s y hay plazas\n" % interes,
                     )
 
                     # El socio tiene interés en esta actividad y hay menos inscritos que plazas
                     if socio not in actividades[interes]["inscritos"]:
-                        grabalog(
-                            filename="sorteo/%s" % socio,
+                        graba_log(
+                            filename=f"sorteo/{socio}",
                             data="El socio no está inscrito ya en  %s\n" % interes,
                         )
                         anyo = mis_socios[socio]["nacim"]
@@ -230,8 +232,8 @@ for socio in sortedsocios:
                             and anyo <= actividades[interes]["edatMax"]
                         ):
                             # Se puede inscribir (está en rango de edad y hay plazas)
-                            grabalog(
-                                filename="sorteo/%s" % socio,
+                            graba_log(
+                                filename=f"sorteo/{socio}",
                                 data="El socio está en el rango de edad para  %s\n"
                                 % interes,
                             )
@@ -240,8 +242,8 @@ for socio in sortedsocios:
                                 actividades[interes]["horario"]
                                 not in horarios_por_socio[socio]
                             ):
-                                grabalog(
-                                    filename="sorteo/%s" % socio,
+                                graba_log(
+                                    filename=f"sorteo/{socio}",
                                     data="El socio no tiene conflictos de horario para %s\n"
                                     % interes,
                                 )
@@ -254,30 +256,30 @@ for socio in sortedsocios:
                                     actividades[interes]["horario"]
                                 )
                                 keep_running = False
-                                grabalog(
-                                    filename="sorteo/%s" % socio,
+                                graba_log(
+                                    filename=f"sorteo/{socio}",
                                     data="Socio %s INSCRITO en %s\n" % (socio, interes),
                                 )
                             else:
-                                grabalog(
-                                    filename="sorteo/%s" % socio,
+                                graba_log(
+                                    filename=f"sorteo/{socio}",
                                     data="El socio TIENE conflictos de horario para %s\n"
                                     % interes,
                                 )
                         else:
-                            grabalog(
-                                filename="sorteo/%s" % socio,
+                            graba_log(
+                                filename=f"sorteo/{socio}",
                                 data="El socio NO está en el rango de edad para %s\n"
                                 % interes,
                             )
                     else:
-                        grabalog(
-                            filename="sorteo/%s" % socio,
+                        graba_log(
+                            filename=f"sorteo/{socio}",
                             data="El socio YA estaba inscrito en  %s\n" % interes,
                         )
                 else:
-                    grabalog(
-                        filename="sorteo/%s" % socio,
+                    graba_log(
+                        filename=f"sorteo/{socio}",
                         data="El socio tiene interés en %s pero NO hay plazas\n"
                         % interes,
                     )
