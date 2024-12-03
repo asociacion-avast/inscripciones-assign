@@ -263,13 +263,13 @@ for socio in sorted_socios:
                                 )
 
                                 # Comprobar si hay conflicto de nombre en la actividad
-                                conflictonombres = False
+                                conflicto_nombres_actividad = False
                                 for activi in inscripciones_por_socio[socio]:
                                     if (
                                         actividades_nombre[interes]
                                         == actividades_nombre[activi]
                                     ):
-                                        conflictonombres = True
+                                        conflicto_nombres_actividad = True
                                         graba_log(
                                             filename=f"sorteo/{socio}",
                                             data="Actividad %s inscrita con otro nombre %s (%s)\n"
@@ -280,7 +280,7 @@ for socio in sorted_socios:
                                             ),
                                         )
 
-                                if not conflictonombres:
+                                if not conflicto_nombres_actividad:
                                     # No hay conflicto de horario con otras inscripciones
                                     actividades[interes]["inscritos"].append(socio)
                                     inscripciones_por_actividad[interes].append(socio)
