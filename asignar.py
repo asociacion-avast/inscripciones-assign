@@ -25,6 +25,12 @@ def durstenfeld_shuffle(arr):
     return arr
 
 
+def grabalog(filename, data):
+    with open(f"{filename}.log", "a", encoding="utf-8") as f:
+        f.write(data)
+        return True
+
+
 # Construir diccionario de actividades o reutilizar el anterior
 try:
     actividades = common.readjson(filename="sorteo-actividades")
@@ -74,6 +80,7 @@ except:
 
     for socio in sociosjson:
         id_socio = f'{int(socio["idColegiat"])}'
+        grabalog(filename=f"sorteo/{id_socio}", data="Comienzo del proceso\n")
 
         if (
             "estat" in socio
@@ -81,6 +88,11 @@ except:
             and "estatColegiat" in socio
             and socio["estatColegiat"]["nom"] == "ESTALTA"
         ):
+            tieneactivi = False
+            grabalog(
+                filename=f"sorteo/{id_socio}",
+                data="Socio está dado de alta y validado\n",
+            )
             if "colegiatHasModalitats" in socio:
                 # Iterate over all categories for the socio
                 for modalitat in socio["colegiatHasModalitats"]:
@@ -94,11 +106,26 @@ except:
                             "actividades".lower() in modalitat_nombre
                             and "sin actividades".lower() not in modalitat_nombre
                         ):
+                            grabalog(
+                                filename=f"sorteo/{id_socio}",
+                                data="Socio tiene actividades\n",
+                            )
+                            tieneactivi = True
                             mis_socios[id_socio] = {}
                             fecha = dateutil.parser.parse(
                                 socio["persona"]["dataNaixement"]
                             )
                             mis_socios[id_socio]["nacim"] = fecha.year
+
+            else:
+                grabalog(
+                    filename=f"sorteo/{id_socio}",
+                    data="Socio no está dado de alta y/o validado\n",
+                )
+            if not tieneactivi:
+                grabalog(
+                    filename=f"sorteo/{id_socio}", data="Socio NO tiene actividades\n"
+                )
 
     # Salvar lista para la futura ejecución
     common.writejson(filename="sorteo-socios", data=mis_socios)
@@ -121,9 +148,15 @@ for socio in mis_socios:
             socios[socio] = []
         with open(filename) as f:
             lineas = f.readlines()
+
             for linea in lineas:
                 interes = f"{int(linea.strip())}"
                 socios[socio].append(interes)
+
+            grabalog(
+                filename="sorteo/%s" % socio,
+                data="Preferencias de socio: %s\n" % " ".join(socios[socio]),
+            )
 
 
 socios_a_borrar = [socio for socio, value in socios.items() if value == []]
@@ -174,37 +207,83 @@ for socio in sortedsocios:
         for interes in socios[socio]:
             if interes not in inscripciones_por_actividad:
                 inscripciones_por_actividad[interes] = []
-            if (
-                keep_running
-                and interes in actividades
-                and (
+            if keep_running:
+                if interes in actividades and (
                     len(actividades[interes]["inscritos"])
                     < actividades[interes]["maxplazas"]
-                )
-            ):
-                # El socio tiene interés en esta actividad y hay menos inscritos que plazas
-                if socio not in actividades[interes]["inscritos"]:
-                    anyo = mis_socios[socio]["nacim"]
+                ):
+                    grabalog(
+                        filename="sorteo/%s" % socio,
+                        data="El socio tiene interés en %s y hay plazas\n" % interes,
+                    )
 
-                    if (
-                        anyo >= actividades[interes]["edatMin"]
-                        and anyo <= actividades[interes]["edatMax"]
-                    ):
-                        # Se puede inscribir (está en rango de edad y hay plazas)
+                    # El socio tiene interés en esta actividad y hay menos inscritos que plazas
+                    if socio not in actividades[interes]["inscritos"]:
+                        grabalog(
+                            filename="sorteo/%s" % socio,
+                            data="El socio no está inscrito ya en  %s\n" % interes,
+                        )
+                        anyo = mis_socios[socio]["nacim"]
 
                         if (
-                            actividades[interes]["horario"]
-                            not in horarios_por_socio[socio]
+                            anyo >= actividades[interes]["edatMin"]
+                            and anyo <= actividades[interes]["edatMax"]
                         ):
-                            # No hay conflicto de horario con otras inscripciones
-                            actividades[interes]["inscritos"].append(socio)
-                            inscripciones_por_actividad[interes].append(socio)
-
-                            inscripciones_por_socio[socio].append(interes)
-                            horarios_por_socio[socio].append(
-                                actividades[interes]["horario"]
+                            # Se puede inscribir (está en rango de edad y hay plazas)
+                            grabalog(
+                                filename="sorteo/%s" % socio,
+                                data="El socio está en el rango de edad para  %s\n"
+                                % interes,
                             )
-                            keep_running = False
+
+                            if (
+                                actividades[interes]["horario"]
+                                not in horarios_por_socio[socio]
+                            ):
+                                grabalog(
+                                    filename="sorteo/%s" % socio,
+                                    data="El socio no tiene conflictos de horario para %s\n"
+                                    % interes,
+                                )
+                                # No hay conflicto de horario con otras inscripciones
+                                actividades[interes]["inscritos"].append(socio)
+                                inscripciones_por_actividad[interes].append(socio)
+
+                                inscripciones_por_socio[socio].append(interes)
+                                horarios_por_socio[socio].append(
+                                    actividades[interes]["horario"]
+                                )
+                                keep_running = False
+                                grabalog(
+                                    filename="sorteo/%s" % socio,
+                                    data="Socio %s INSCRITO en %s\n" % (socio, interes),
+                                )
+                            else:
+                                grabalog(
+                                    filename="sorteo/%s" % socio,
+                                    data="El socio TIENE conflictos de horario para %s\n"
+                                    % interes,
+                                )
+                        else:
+                            grabalog(
+                                filename="sorteo/%s" % socio,
+                                data="El socio NO está en el rango de edad para %s\n"
+                                % interes,
+                            )
+                    else:
+                        grabalog(
+                            filename="sorteo/%s" % socio,
+                            data="El socio YA estaba inscrito en  %s\n" % interes,
+                        )
+                else:
+                    grabalog(
+                        filename="sorteo/%s" % socio,
+                        data="El socio tiene interés en %s pero NO hay plazas\n"
+                        % interes,
+                    )
+            else:
+                # Saltando por haber rellenado plaza
+                keep_running = False
 
 
 # Salvar datos
