@@ -2,12 +2,16 @@
 # Fills random activities for each member to have a set of test data
 
 
+import os
 import random
 
 import common
 
 # Initialize random seed with ONCE number
-random.seed(85535)
+with open(os.path.expanduser(".sorteoseed")) as f:
+    seed = f.readlines()[0].strip()
+
+random.seed(seed)
 
 
 actividadesjson = common.readjson(filename="actividades")
