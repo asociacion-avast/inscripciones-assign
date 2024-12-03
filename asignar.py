@@ -86,12 +86,13 @@ except:
                 for modalitat in socio["colegiatHasModalitats"]:
                     if "modalitat" in modalitat:
                         # Save name for comparing the ones we target
-                        modalitat_nombre = modalitat["modalitat"]["nom"].lower()
+                        modalitat_nombre = modalitat["modalitat"]["agrupacio"][
+                            "nom"
+                        ].lower()
 
                         if (
-                            "socio principal".lower() in modalitat_nombre
-                            or "deudor".lower() in modalitat_nombre
-                            or "hermano de socio".lower() in modalitat_nombre
+                            "actividades".lower() in modalitat_nombre
+                            and "sin actividades".lower() not in modalitat_nombre
                         ):
                             mis_socios[id_socio] = {}
                             fecha = dateutil.parser.parse(
