@@ -11,7 +11,7 @@ actividadesjson = common.readjson(filename="actividades")
 actividades = {}
 # Procesar las actividades para generar lista de horarios y años de nacimiento, así como plazas e inscritos
 for interes in actividadesjson:
-    idactividad = f'{int(interes["idActivitat"])}'
+    idactividad = f"{int(interes['idActivitat'])}"
     try:
         horario = int(interes["idNivell"])
     except:
@@ -48,7 +48,7 @@ mis_socios = {}
 sociosjson = common.readjson(filename="socios")
 
 for socio in sociosjson:
-    id_socio = f'{int(socio["idColegiat"])}'
+    id_socio = f"{int(socio['idColegiat'])}"
 
     if (
         "estat" in socio
