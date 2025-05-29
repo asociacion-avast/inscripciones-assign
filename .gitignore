@@ -1,3 +1,4 @@
 *.json
 sorteo/*.txt
 __pycache__/
+sorteo/*.log
