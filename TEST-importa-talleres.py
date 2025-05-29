@@ -12,7 +12,10 @@ actividades = {}
 # Procesar las actividades para generar lista de horarios y años de nacimiento, así como plazas e inscritos
 for interes in actividadesjson:
     idactividad = f'{int(interes["idActivitat"])}'
-    horario = int(interes["idNivell"])
+    try:
+        horario = int(interes["idNivell"])
+    except:
+        horario = 0
 
     if horario in {7, 8, 9, 10}:
         try:
