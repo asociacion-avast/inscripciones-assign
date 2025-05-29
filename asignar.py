@@ -45,13 +45,16 @@ except Exception:
     actividades = {}
     # Procesar las actividades para generar lista de horarios y años de nacimiento, así como plazas e inscritos
     for actividad in actividades_json:
-        idactividad = f'{int(actividad["idActivitat"])}'
+        idactividad = f"{int(actividad['idActivitat'])}"
         actividades_nombre[idactividad] = (
             " ".join(
                 re.sub(r"grupo .", "", actividad["nom"].split("(")[0]).rstrip().split()
             )
         ).lower()
-        horario = int(actividad["idNivell"])
+        try:
+            horario = int(actividad["idNivell"])
+        except:
+            horario = 0
 
         if horario in {7, 8, 9, 10}:
             try:
@@ -88,7 +91,7 @@ except Exception:
     sociosjson = common.readjson(filename="socios")
 
     for socio in sociosjson:
-        id_socio = f'{int(socio["idColegiat"])}'
+        id_socio = f"{int(socio['idColegiat'])}"
         graba_log(filename=f"sorteo/{id_socio}", data="Comienzo del proceso\n")
 
         if (
@@ -266,7 +269,9 @@ for socio in sorted_socios:
                                 conflicto_nombres_actividad = False
                                 for activi in inscripciones_por_socio[socio]:
                                     if (
-                                        actividades_nombre[interes]
+                                        interes in actividades_nombre
+                                        and activi in actividades_nombre
+                                        and actividades_nombre[interes]
                                         == actividades_nombre[activi]
                                     ):
                                         conflicto_nombres_actividad = True
