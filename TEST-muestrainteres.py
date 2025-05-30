@@ -1,15 +1,9 @@
 #!/usr/bin/env python
-import os
-import pprint
-import random
-import re
 
-import dateutil.parser
 
 import common
 import sys
 
-import common
 
 anyo = False
 if len(sys.argv) > 1:
@@ -17,20 +11,22 @@ if len(sys.argv) > 1:
         socio = int(sys.argv[1])
     except Exception:
         socio = False
+else:
+    socio = False
+
 if not socio:
     print("Indica nº de socio para mostrar intereses")
     sys.exit(-1)
 
 
-intereses=[]
+intereses = []
 
 with open(f"sorteo/{socio}.txt", "r", encoding="utf-8") as f:
     for line in f:
-        
         intereses.append(line.rstrip().lstrip())
 print(sorted(set(intereses)))
 
 
 actividades_nombre = common.readjson(filename="sorteo-actividades-nombre")
 for interes in intereses:
-    print(actividades_nombre[interes])
+    print(interes, actividades_nombre[interes])
