@@ -178,6 +178,8 @@ for socio in socios_a_borrar:
 # Ordenar id's de socio usando el algoritmo de ordenación
 sorted_socios = durstenfeld_shuffle(id_socios)
 
+common.writejson(filename="sorteo-socios-ordenados", data=sorted_socios)
+
 # Procesar inscripciones
 
 # Leer inscripciones desde disco para cada iteración
