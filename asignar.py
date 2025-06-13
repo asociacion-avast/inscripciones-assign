@@ -147,7 +147,7 @@ id_socios = list(mis_socios)
 id_socios = sorted(set(id_socios))
 print("Total socios a asignar: ", len(id_socios))
 
-socios = {}
+interes_socios = {}
 print("Leyendo preferencias de socios")
 for socio in mis_socios:
     # Fill dictionary of interests for each socio
@@ -156,24 +156,24 @@ for socio in mis_socios:
 
     # Validar que el socio ha expresado intereses
     if os.access(filename, os.R_OK):
-        if socio not in socios:
-            socios[socio] = []
+        if socio not in interes_socios:
+            interes_socios[socio] = []
         with open(filename) as f:
             lineas = f.readlines()
 
             for linea in lineas:
                 interes = f"{int(linea.strip())}"
-                socios[socio].append(interes)
+                interes_socios[socio].append(interes)
 
             graba_log(
                 filename=f"sorteo/{socio}",
-                data="Preferencias de socio: %s\n" % " ".join(socios[socio]),
+                data="Preferencias de socio: %s\n" % " ".join(interes_socios[socio]),
             )
 
 
-socios_a_borrar = [socio for socio, value in socios.items() if value == []]
+socios_a_borrar = [socio for socio, value in interes_socios.items() if value == []]
 for socio in socios_a_borrar:
-    del socios[socio]
+    del interes_socios[socio]
 
 # Ordenar id's de socio usando el algoritmo de ordenación
 sorted_socios = durstenfeld_shuffle(id_socios)
@@ -211,7 +211,7 @@ except Exception:
 print("Asignando plazas a socios")
 for socio in sorted_socios:
     # Validar que el socio está en el listado con intereses
-    if socio in socios:
+    if socio in interes_socios:
         # Preparar si no existen listado de inscripciones de cada socio y horarios ocupados y las inscripciones de cada actividad
         keep_running = True
         if socio not in inscripciones_por_socio:
@@ -225,7 +225,7 @@ for socio in sorted_socios:
             data="El socio está inscrito en %s\n" % inscripciones_por_socio[socio],
         )
 
-        for interes in socios[socio]:
+        for interes in interes_socios[socio]:
             if interes not in inscripciones_por_actividad:
                 inscripciones_por_actividad[interes] = []
             if keep_running:
