@@ -175,172 +175,203 @@ socios_a_borrar = [socio for socio, value in interes_socios.items() if value == 
 for socio in socios_a_borrar:
     del interes_socios[socio]
 
-# Ordenar id's de socio usando el algoritmo de ordenación
-sorted_socios = durstenfeld_shuffle(id_socios)
 
-common.writejson(filename="sorteo-socios-ordenados", data=sorted_socios)
+def procesar_inscripciones(sorting_function, suffix=""):
+    """
+    Procesa las inscripciones de socios usando el método de ordenación especificado.
 
-# Procesar inscripciones
+    Args:
+        sorting_function: Función que ordena la lista de socios
+        suffix: Sufijo para los archivos de salida (opcional)
 
-# Leer inscripciones desde disco para cada iteración
-try:
-    inscripciones_por_actividad = common.readjson(
-        filename="sorteo-inscripciones_por_actividad"
+    Returns:
+        Tuple con (inscripciones_por_actividad, inscripciones_por_socio, horarios_por_socio)
+    """
+    # Ordenar id's de socio usando el algoritmo de ordenación especificado
+    sorted_socios = sorting_function(id_socios.copy())
+
+    filename_suffix = f"-{suffix}" if suffix else ""
+    common.writejson(
+        filename=f"sorteo-socios-ordenados{filename_suffix}", data=sorted_socios
     )
 
-except Exception:
-    print("Fallo leyendo inscripciones por actividad previos")
-    inscripciones_por_actividad = {}
+    # Procesar inscripciones
 
-try:
-    inscripciones_por_socio = common.readjson(filename="sorteo-inscripciones_por_socio")
-
-except Exception:
-    print("Fallo leyendo inscripciones por socio previas")
-    inscripciones_por_socio = {}
-
-try:
-    horarios_por_socio = common.readjson(filename="sorteo-horarios_por_socio")
-
-except Exception:
-    print("Fallo leyendo horarios por socio previos")
-    horarios_por_socio = {}
-
-
-# Asignar plazas
-print("Asignando plazas a socios")
-for socio in sorted_socios:
-    # Validar que el socio está en el listado con intereses
-    if socio in interes_socios:
-        # Preparar si no existen listado de inscripciones de cada socio y horarios ocupados y las inscripciones de cada actividad
-        keep_running = True
-        if socio not in inscripciones_por_socio:
-            inscripciones_por_socio[socio] = []
-
-        if socio not in horarios_por_socio:
-            horarios_por_socio[socio] = []
-
-        graba_log(
-            filename=f"sorteo/{socio}",
-            data="El socio está inscrito en %s\n" % inscripciones_por_socio[socio],
+    # Leer inscripciones desde disco para cada iteración
+    try:
+        inscripciones_por_actividad = common.readjson(
+            filename="sorteo-inscripciones_por_actividad"
         )
+    except Exception:
+        print("Fallo leyendo inscripciones por actividad previos")
+        inscripciones_por_actividad = {}
 
-        for interes in interes_socios[socio]:
-            if interes not in inscripciones_por_actividad:
-                inscripciones_por_actividad[interes] = []
-            if keep_running:
-                if interes in actividades and (
-                    len(actividades[interes]["inscritos"])
-                    < actividades[interes]["maxplazas"]
-                ):
-                    graba_log(
-                        filename=f"sorteo/{socio}",
-                        data="El socio tiene interés en %s y hay plazas\n" % interes,
-                    )
+    try:
+        inscripciones_por_socio = common.readjson(
+            filename="sorteo-inscripciones_por_socio"
+        )
+    except Exception:
+        print("Fallo leyendo inscripciones por socio previas")
+        inscripciones_por_socio = {}
 
-                    # El socio tiene interés en esta actividad y hay menos inscritos que plazas
-                    if socio not in actividades[interes]["inscritos"]:
+    try:
+        horarios_por_socio = common.readjson(filename="sorteo-horarios_por_socio")
+    except Exception:
+        print("Fallo leyendo horarios por socio previos")
+        horarios_por_socio = {}
+
+    # Asignar plazas
+    print(f"Asignando plazas a socios{f' ({suffix})' if suffix else ''}")
+    for socio in sorted_socios:
+        # Validar que el socio está en el listado con intereses
+        if socio in interes_socios:
+            # Preparar si no existen listado de inscripciones de cada socio y horarios ocupados y las inscripciones de cada actividad
+            keep_running = True
+            if socio not in inscripciones_por_socio:
+                inscripciones_por_socio[socio] = []
+
+            if socio not in horarios_por_socio:
+                horarios_por_socio[socio] = []
+
+            graba_log(
+                filename=f"sorteo/{socio}",
+                data="El socio está inscrito en %s\n" % inscripciones_por_socio[socio],
+            )
+
+            for interes in interes_socios[socio]:
+                if interes not in inscripciones_por_actividad:
+                    inscripciones_por_actividad[interes] = []
+                if keep_running:
+                    if interes in actividades and (
+                        len(actividades[interes]["inscritos"])
+                        < actividades[interes]["maxplazas"]
+                    ):
                         graba_log(
                             filename=f"sorteo/{socio}",
-                            data="El socio no está inscrito ya en  %s\n" % interes,
+                            data="El socio tiene interés en %s y hay plazas\n"
+                            % interes,
                         )
-                        anyo = mis_socios[socio]["nacim"]
 
-                        if (
-                            anyo >= actividades[interes]["edatMin"]
-                            and anyo <= actividades[interes]["edatMax"]
-                        ):
-                            # Se puede inscribir (está en rango de edad y hay plazas)
+                        # El socio tiene interés en esta actividad y hay menos inscritos que plazas
+                        if socio not in actividades[interes]["inscritos"]:
                             graba_log(
                                 filename=f"sorteo/{socio}",
-                                data="El socio está en el rango de edad para  %s\n"
-                                % interes,
+                                data="El socio no está inscrito ya en  %s\n" % interes,
                             )
+                            anyo = mis_socios[socio]["nacim"]
 
                             if (
-                                actividades[interes]["horario"]
-                                not in horarios_por_socio[socio]
+                                anyo >= actividades[interes]["edatMin"]
+                                and anyo <= actividades[interes]["edatMax"]
                             ):
+                                # Se puede inscribir (está en rango de edad y hay plazas)
                                 graba_log(
                                     filename=f"sorteo/{socio}",
-                                    data="El socio no tiene conflictos de horario para %s\n"
+                                    data="El socio está en el rango de edad para  %s\n"
                                     % interes,
                                 )
 
-                                # Comprobar si hay conflicto de nombre en la actividad
-                                conflicto_nombres_actividad = False
-                                for activi in inscripciones_por_socio[socio]:
-                                    if (
-                                        interes in actividades_nombre
-                                        and activi in actividades_nombre
-                                        and actividades_nombre[interes]
-                                        == actividades_nombre[activi]
-                                    ):
-                                        conflicto_nombres_actividad = True
-                                        graba_log(
-                                            filename=f"sorteo/{socio}",
-                                            data="Actividad %s inscrita con otro nombre %s (%s)\n"
-                                            % (
-                                                interes,
-                                                activi,
-                                                actividades_nombre[interes],
-                                            ),
-                                        )
-
-                                if not conflicto_nombres_actividad:
-                                    # No hay conflicto de horario con otras inscripciones
-                                    actividades[interes]["inscritos"].append(socio)
-                                    inscripciones_por_actividad[interes].append(socio)
-
-                                    inscripciones_por_socio[socio].append(interes)
-                                    horarios_por_socio[socio].append(
-                                        actividades[interes]["horario"]
-                                    )
-                                    keep_running = False
+                                if (
+                                    actividades[interes]["horario"]
+                                    not in horarios_por_socio[socio]
+                                ):
                                     graba_log(
                                         filename=f"sorteo/{socio}",
-                                        data="Socio %s INSCRITO en %s\n"
-                                        % (socio, interes),
+                                        data="El socio no tiene conflictos de horario para %s\n"
+                                        % interes,
+                                    )
+
+                                    # Comprobar si hay conflicto de nombre en la actividad
+                                    conflicto_nombres_actividad = False
+                                    for activi in inscripciones_por_socio[socio]:
+                                        if (
+                                            interes in actividades_nombre
+                                            and activi in actividades_nombre
+                                            and actividades_nombre[interes]
+                                            == actividades_nombre[activi]
+                                        ):
+                                            conflicto_nombres_actividad = True
+                                            graba_log(
+                                                filename=f"sorteo/{socio}",
+                                                data="Actividad %s inscrita con otro nombre %s (%s)\n"
+                                                % (
+                                                    interes,
+                                                    activi,
+                                                    actividades_nombre[interes],
+                                                ),
+                                            )
+
+                                    if not conflicto_nombres_actividad:
+                                        # No hay conflicto de horario con otras inscripciones
+                                        actividades[interes]["inscritos"].append(socio)
+                                        inscripciones_por_actividad[interes].append(
+                                            socio
+                                        )
+
+                                        inscripciones_por_socio[socio].append(interes)
+                                        horarios_por_socio[socio].append(
+                                            actividades[interes]["horario"]
+                                        )
+                                        keep_running = False
+                                        graba_log(
+                                            filename=f"sorteo/{socio}",
+                                            data="Socio %s INSCRITO en %s\n"
+                                            % (socio, interes),
+                                        )
+                                else:
+                                    graba_log(
+                                        filename=f"sorteo/{socio}",
+                                        data="El socio TIENE conflictos de horario para %s\n"
+                                        % interes,
                                     )
                             else:
                                 graba_log(
                                     filename=f"sorteo/{socio}",
-                                    data="El socio TIENE conflictos de horario para %s\n"
+                                    data="El socio NO está en el rango de edad para %s\n"
                                     % interes,
                                 )
                         else:
                             graba_log(
                                 filename=f"sorteo/{socio}",
-                                data="El socio NO está en el rango de edad para %s\n"
-                                % interes,
+                                data="El socio YA estaba inscrito en  %s\n" % interes,
                             )
                     else:
                         graba_log(
                             filename=f"sorteo/{socio}",
-                            data="El socio YA estaba inscrito en  %s\n" % interes,
+                            data="El socio tiene interés en %s pero NO hay plazas\n"
+                            % interes,
                         )
                 else:
-                    graba_log(
-                        filename=f"sorteo/{socio}",
-                        data="El socio tiene interés en %s pero NO hay plazas\n"
-                        % interes,
-                    )
-            else:
-                # Saltando por haber rellenado plaza
-                keep_running = False
+                    # Saltando por haber rellenado plaza
+                    keep_running = False
+
+    # Salvar datos
+    common.writejson(
+        filename="sorteo-inscripciones_por_actividad",
+        data=inscripciones_por_actividad,
+    )
+    common.writejson(
+        filename="sorteo-inscripciones_por_socio",
+        data=inscripciones_por_socio,
+    )
+    common.writejson(filename="sorteo-horarios_por_socio", data=horarios_por_socio)
+    common.writejson(filename="sorteo-actividades", data=actividades)
+    common.writejson(filename="sorteo-actividades-nombre", data=actividades_nombre)
+
+    return inscripciones_por_actividad, inscripciones_por_socio, horarios_por_socio
 
 
-# Salvar datos
-common.writejson(
-    filename="sorteo-inscripciones_por_actividad", data=inscripciones_por_actividad
-)
-common.writejson(
-    filename="sorteo-inscripciones_por_socio", data=inscripciones_por_socio
-)
-common.writejson(filename="sorteo-horarios_por_socio", data=horarios_por_socio)
-common.writejson(filename="sorteo-actividades", data=actividades)
-common.writejson(filename="sorteo-actividades-nombre", data=actividades_nombre)
+# Ejecutar el procesamiento 4 veces con el método de ordenación original
+results = []
+for i in range(1, 5):
+    print(f"\n=== Ejecución {i} ===")
+    result = procesar_inscripciones(durstenfeld_shuffle, f"run{i}")
+    results.append((f"run{i}", result))
 
+# Mostrar resultados del último método (por compatibilidad)
+inscripciones_por_actividad, inscripciones_por_socio, horarios_por_socio = results[-1][
+    1
+]
 
 # Resultados de inscripciones por actividad e inscripcones por socio
 print("Inscripciones por actividad")
