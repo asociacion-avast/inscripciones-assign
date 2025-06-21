@@ -179,16 +179,16 @@ for socio in socios_a_borrar:
 def procesar_inscripciones(sorting_function, suffix=""):
     """
     Assigns socios (members) to activities based on their preferences, eligibility, and availability, using a specified sorting function to determine assignment order.
-    
+
     The function processes inscriptions by:
     - Sorting socios with the provided sorting function.
     - Attempting to enroll each socio in their preferred activities, checking for available places, age eligibility, schedule conflicts, and duplicate activity names.
     - Updating and saving the resulting inscriptions and schedules to disk.
-    
+
     Parameters:
         sorting_function: A function that takes a list of socio IDs and returns a sorted list, determining the order of assignment.
         suffix (str, optional): Suffix to append to output filenames for distinguishing between runs.
-    
+
     Returns:
         tuple: (inscripciones_por_actividad, inscripciones_por_socio, horarios_por_socio), representing the final assignments by activity, by socio, and the occupied schedules per socio.
     """
