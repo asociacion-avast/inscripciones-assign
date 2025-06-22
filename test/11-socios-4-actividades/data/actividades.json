@@ -1,0 +1,86 @@
+[
+    {
+        "idActivitat": "101",
+        "idNivell": "7",
+        "nom": "Actividad101 2010-2020 (2020-2020) 9:00",
+        "estat": "ACTIESTVIG",
+        "minPlaces": "5",
+        "maxPlaces": "10",
+        "edatMin": "2010",
+        "edatMax": "2020",
+        "activitatHasModalitats": [
+            {
+                "idModalitat": "12"
+            },
+            {
+                "idModalitat": "13"
+            },
+            {
+                "idModalitat": "14"
+            }
+        ]
+    },
+    {
+        "idActivitat": "102",
+        "idNivell": "8",
+        "nom": "Actividad102 2010-2020 (2020-2020) 10:00",
+        "estat": "ACTIESTVIG",
+        "minPlaces": "5",
+        "maxPlaces": "10",
+        "edatMin": "2010",
+        "edatMax": "2020",
+        "activitatHasModalitats": [
+            {
+                "idModalitat": "12"
+            },
+            {
+                "idModalitat": "13"
+            },
+            {
+                "idModalitat": "14"
+            }
+        ]
+    },
+    {
+        "idActivitat": "103",
+        "idNivell": "9",
+        "nom": "Actividad103 2010-2020 (2020-2020) 11:30",
+        "estat": "ACTIESTVIG",
+        "minPlaces": "5",
+        "maxPlaces": "10",
+        "edatMin": "2010",
+        "edatMax": "2020",
+        "activitatHasModalitats": [
+            {
+                "idModalitat": "12"
+            },
+            {
+                "idModalitat": "13"
+            },
+            {
+                "idModalitat": "14"
+            }
+        ]
+    },
+    {
+        "idActivitat": "104",
+        "idNivell": "10",
+        "nom": "Actividad104 2010-2020 (2020-2020) 12:30",
+        "estat": "ACTIESTVIG",
+        "minPlaces": "5",
+        "maxPlaces": "10",
+        "edatMin": "2010",
+        "edatMax": "2020",
+        "activitatHasModalitats": [
+            {
+                "idModalitat": "12"
+            },
+            {
+                "idModalitat": "13"
+            },
+            {
+                "idModalitat": "14"
+            }
+        ]
+    }
+  ]

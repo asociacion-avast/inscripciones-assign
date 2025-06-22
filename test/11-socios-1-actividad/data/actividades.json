@@ -1,0 +1,23 @@
+[
+    {
+        "idActivitat": "100",
+        "idNivell": "7",
+        "nom": "Actividade 2010-2020 (2020-2020) 11:30",
+        "estat": "ACTIESTVIG",
+        "minPlaces": "5",
+        "maxPlaces": "10",
+        "edatMin": "2010",
+        "edatMax": "2020",
+        "activitatHasModalitats": [
+            {
+                "idModalitat": "12"
+            },
+            {
+                "idModalitat": "13"
+            },
+            {
+                "idModalitat": "14"
+            }
+        ]
+    }
+  ]
