@@ -147,33 +147,39 @@ id_socios = list(mis_socios)
 id_socios = sorted(set(id_socios))
 print("Total socios a asignar: ", len(id_socios))
 
-interes_socios = {}
 print("Leyendo preferencias de socios")
-for socio in mis_socios:
-    # Fill dictionary of interests for each socio
+try:
+    interes_socios = common.readjson(filename="interes_socios")
+except:
+    interes_socios = {}
 
-    filename = f"sorteo/{socio}.txt"
+    for socio in mis_socios:
+        # Fill dictionary of interests for each socio
 
-    # Validar que el socio ha expresado intereses
-    if os.access(filename, os.R_OK):
-        if socio not in interes_socios:
-            interes_socios[socio] = []
-        with open(filename) as f:
-            lineas = f.readlines()
+        filename = f"sorteo/{socio}.txt"
 
-            for linea in lineas:
-                interes = f"{int(linea.strip())}"
-                interes_socios[socio].append(interes)
+        # Validar que el socio ha expresado intereses
+        if os.access(filename, os.R_OK):
+            if socio not in interes_socios:
+                interes_socios[socio] = []
+            with open(filename) as f:
+                lineas = f.readlines()
 
-            graba_log(
-                filename=f"sorteo/{socio}",
-                data="Preferencias de socio: %s\n" % " ".join(interes_socios[socio]),
-            )
+                for linea in lineas:
+                    interes = f"{int(linea.strip())}"
+                    interes_socios[socio].append(interes)
 
+                graba_log(
+                    filename=f"sorteo/{socio}",
+                    data="Preferencias de socio: %s\n"
+                    % " ".join(interes_socios[socio]),
+                )
 
-socios_a_borrar = [socio for socio, value in interes_socios.items() if value == []]
-for socio in socios_a_borrar:
-    del interes_socios[socio]
+    socios_a_borrar = [socio for socio, value in interes_socios.items() if value == []]
+    for socio in socios_a_borrar:
+        del interes_socios[socio]
+
+    common.writejson(filename="interes_socios", data=interes_socios)
 
 
 def procesar_inscripciones(sorting_function, suffix=""):
