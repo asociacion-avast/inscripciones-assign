@@ -1,0 +1,85 @@
+[
+    {
+        "idActivitat": "100",
+        "idNivell": "7",
+        "nom": "Actividad101 2010-2011  9:00",
+        "estat": "ACTIESTVIG",
+        "minPlaces": "5",
+        "maxPlaces": "10",
+        "edatMin": "2010",
+        "edatMax": "2011",
+        "activitatHasModalitats": [
+            {
+                "idModalitat": "12"
+            },
+            {
+                "idModalitat": "13"
+            },
+            {
+                "idModalitat": "14"
+            }
+        ]
+    },
+  {
+        "idActivitat": "101",
+        "idNivell": "7",
+        "nom": "Actividad101 2012-2014  9:00",
+        "estat": "ACTIESTVIG",
+        "minPlaces": "5",
+        "maxPlaces": "10",
+        "edatMin": "2012",
+        "edatMax": "2014",
+        "activitatHasModalitats": [
+            {
+                "idModalitat": "12"
+            },
+            {
+                "idModalitat": "13"
+            },
+            {
+                "idModalitat": "14"
+            }
+        ]
+    },
+  {
+        "idActivitat": "102",
+        "idNivell": "7",
+        "nom": "Actividad101 2015-2017  9:00",
+        "estat": "ACTIESTVIG",
+        "minPlaces": "5",
+        "maxPlaces": "10",
+        "edatMin": "2015",
+        "edatMax": "2017",
+        "activitatHasModalitats": [
+            {
+                "idModalitat": "12"
+            },
+            {
+                "idModalitat": "13"
+            },
+            {
+                "idModalitat": "14"
+            }
+        ]
+    },{
+        "idActivitat": "103",
+        "idNivell": "7",
+        "nom": "Actividad101 2018-2019  9:00",
+        "estat": "ACTIESTVIG",
+        "minPlaces": "5",
+        "maxPlaces": "10",
+        "edatMin": "2018",
+        "edatMax": "2019",
+        "activitatHasModalitats": [
+            {
+                "idModalitat": "12"
+            },
+            {
+                "idModalitat": "13"
+            },
+            {
+                "idModalitat": "14"
+            }
+        ]
+    }
+]
