@@ -48,7 +48,10 @@ except Exception:
         idactividad = f"{int(actividad['idActivitat'])}"
         actividades_nombre[idactividad] = (
             " ".join(
-                re.sub(r"grupo .", "", actividad["nom"].split("(")[0]).rstrip().split()
+                re.sub(r" .:", "", actividad["nom"].split("(")[0])
+                .split(":")[0]
+                .rstrip()
+                .split()
             )
         ).lower()
         try:
@@ -385,6 +388,7 @@ inscripciones_por_actividad, inscripciones_por_socio, horarios_por_socio = resul
 ]
 
 # Resultados de inscripciones por actividad e inscripcones por socio
+print("\n")
 print("Inscripciones por actividad")
 pprint.pprint(inscripciones_por_actividad)
 print("Inscripciones por socio")
