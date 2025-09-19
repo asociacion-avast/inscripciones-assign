@@ -329,8 +329,12 @@ def procesar_inscripciones(sorting_function, suffix=""):
                                         keep_running = False
                                         graba_log(
                                             filename=f"sorteo/{socio}",
-                                            data="Socio %s INSCRITO en %s\n"
-                                            % (socio, interes),
+                                            data="Socio %s INSCRITO en %s (%s)\n"
+                                            % (
+                                                socio,
+                                                interes,
+                                                actividades_nombre[interes],
+                                            ),
                                         )
                                 else:
                                     graba_log(
