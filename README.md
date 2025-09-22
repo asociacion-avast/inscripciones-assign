@@ -20,11 +20,11 @@ echo '32768' > .sorteoseed
 
 ## Descripción de los scripts
 
-| Script                     | Función                                                                                                                       |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| `asignar.py`               | Procesa la lista de socios, actividades e intereses para hacer las asignaciones de grupos                                     |
-| `TEST-interes-fill.py`     | para uso INTERNO: Crea entradas para simular la selección de los socios en cuanto a actividades.                              |
-| `TEST-importa-talleres.py` | para uso INTERNO: Importa talleres actualmente inscritos para pre-rellenar la lista de inscritos y saber las vacantes reales. |
+| Script                  | Función                                                                                                                       |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `3-importa-talleres.py` | para uso INTERNO: Importa talleres actualmente inscritos para pre-rellenar la lista de inscritos y saber las vacantes reales. |
+| `4-asignar.py`          | Procesa la lista de socios, actividades e intereses para hacer las asignaciones de grupos                                     |
+| `TEST-interes-fill.py`  | para uso INTERNO: Crea entradas para simular la selección de los socios en cuanto a actividades.                              |
 
 `asignar.py` lee a cada ejecución los datos y realiza la asignación de un grupo a cada ejecución siguiendo el orden de preferencias indicado.
 
