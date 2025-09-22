@@ -270,7 +270,7 @@ def procesar_inscripciones(sorting_function, suffix=""):
                         if socio not in actividades[interes]["inscritos"]:
                             graba_log(
                                 filename=f"sorteo/{socio}",
-                                data="El socio no está inscrito ya en  %s\n" % interes,
+                                data="El socio no está inscrito ya en %s\n" % interes,
                             )
                             anyo = mis_socios[socio]["nacim"]
 
@@ -281,7 +281,7 @@ def procesar_inscripciones(sorting_function, suffix=""):
                                 # Se puede inscribir (está en rango de edad y hay plazas)
                                 graba_log(
                                     filename=f"sorteo/{socio}",
-                                    data="El socio está en el rango de edad para  %s\n"
+                                    data="El socio está en el rango de edad para %s\n"
                                     % interes,
                                 )
 
@@ -351,7 +351,7 @@ def procesar_inscripciones(sorting_function, suffix=""):
                         else:
                             graba_log(
                                 filename=f"sorteo/{socio}",
-                                data="El socio YA estaba inscrito en  %s\n" % interes,
+                                data="El socio YA estaba inscrito en %s\n" % interes,
                             )
                     else:
                         graba_log(
