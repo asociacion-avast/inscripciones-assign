@@ -1,20 +1,21 @@
-[    {
-        "idColegiat": "1000",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    }
-  ]
+[
+  {
+    "idColegiat": "1000",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  }
+]

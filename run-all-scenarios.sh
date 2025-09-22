@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 date
 echo ./run-scenario.sh test/1-socio-edad-incorrecta
 ./run-scenario.sh test/1-socio-edad-incorrecta

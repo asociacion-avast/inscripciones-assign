@@ -1,1902 +1,1902 @@
 [
   {
-        "idColegiat": "1000",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1001",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1002",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1003",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1004",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1005",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1006",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1007",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1008",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1009",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1010",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1011",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1012",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1013",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1014",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1015",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1016",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1017",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1018",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1019",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1020",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1021",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1022",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1023",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1024",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1025",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1026",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1027",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1028",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1029",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1030",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1031",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1032",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1033",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1034",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1035",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1036",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1037",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1038",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1039",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1040",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1041",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1042",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1043",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1044",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1045",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1046",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1047",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1048",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1049",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1050",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1051",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1052",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1053",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1054",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1055",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1056",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1057",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1058",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1059",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1060",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1061",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1062",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1063",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1064",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1065",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1066",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1067",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1068",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1069",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1070",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1071",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1072",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1073",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1074",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1075",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1076",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1077",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1078",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1079",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1080",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1081",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1082",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1083",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1084",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1085",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1086",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1087",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1088",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1089",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1090",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1091",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1092",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1093",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1094",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1095",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1096",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1097",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1098",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "idColegiat": "1099",
-        "estat": "COLESTVAL",
-        "estatColegiat": {
-            "nom": "ESTALTA"
-        },
-        "persona" : {
-            "dataNaixement": "2011-08-18"
-        },
-        "colegiatHasModalitats": [
-            {
-                "modalitat": {
-                    "agrupacio": {
-                        "nom": "SOCIO ACTIVIDADES"
-                    }
-                }
-            }
-        ]
-    }
-  ]
+    "idColegiat": "1000",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1001",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1002",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1003",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1004",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1005",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1006",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1007",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1008",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1009",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1010",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1011",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1012",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1013",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1014",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1015",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1016",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1017",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1018",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1019",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1020",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1021",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1022",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1023",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1024",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1025",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1026",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1027",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1028",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1029",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1030",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1031",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1032",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1033",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1034",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1035",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1036",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1037",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1038",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1039",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1040",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1041",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1042",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1043",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1044",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1045",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1046",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1047",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1048",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1049",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1050",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1051",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1052",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1053",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1054",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1055",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1056",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1057",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1058",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1059",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1060",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1061",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1062",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1063",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1064",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1065",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1066",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1067",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1068",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1069",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1070",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1071",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1072",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1073",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1074",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1075",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1076",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1077",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1078",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1079",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1080",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1081",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1082",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1083",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1084",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1085",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1086",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1087",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1088",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1089",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1090",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1091",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1092",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1093",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1094",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1095",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1096",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1097",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1098",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "idColegiat": "1099",
+    "estat": "COLESTVAL",
+    "estatColegiat": {
+      "nom": "ESTALTA"
+    },
+    "persona": {
+      "dataNaixement": "2011-08-18"
+    },
+    "colegiatHasModalitats": [
+      {
+        "modalitat": {
+          "agrupacio": {
+            "nom": "SOCIO ACTIVIDADES"
+          }
+        }
+      }
+    ]
+  }
+]

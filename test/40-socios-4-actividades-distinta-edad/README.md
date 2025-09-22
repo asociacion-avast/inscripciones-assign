@@ -1,4 +1,5 @@
 40 socios de 4 grupos de edades disntintos
+
 - las misma actividad pero de grupos ditintos de edad
 - cada actividad tiene 10 plazas
 

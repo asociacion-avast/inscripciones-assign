@@ -1,86 +1,86 @@
 [
-    {
-        "idActivitat": "100",
-        "idNivell": "7",
-        "nom": "Actividad 2010-2020 (2020-2020) 09:00",
-        "estat": "ACTIESTVIG",
-        "minPlaces": "10",
-        "maxPlaces": "20",
-        "edatMin": "2010",
-        "edatMax": "2020",
-        "activitatHasModalitats": [
-            {
-                "idModalitat": "12"
-            },
-            {
-                "idModalitat": "13"
-            },
-            {
-                "idModalitat": "14"
-            }
-        ]
-    },
-    {
-        "idActivitat": "200",
-        "idNivell": "8",
-        "nom": "Actividad 2010-2020 (2020-2020) 10:00",
-        "estat": "ACTIESTVIG",
-        "minPlaces": "10",
-        "maxPlaces": "20",
-        "edatMin": "2010",
-        "edatMax": "2020",
-        "activitatHasModalitats": [
-            {
-                "idModalitat": "12"
-            },
-            {
-                "idModalitat": "13"
-            },
-            {
-                "idModalitat": "14"
-            }
-        ]
-    },
-    {
-        "idActivitat": "300",
-        "idNivell": "9",
-        "nom": "Actividad 2010-2020 (2020-2020) 11:30",
-        "estat": "ACTIESTVIG",
-        "minPlaces": "10",
-        "maxPlaces": "20",
-        "edatMin": "2010",
-        "edatMax": "2020",
-        "activitatHasModalitats": [
-            {
-                "idModalitat": "12"
-            },
-            {
-                "idModalitat": "13"
-            },
-            {
-                "idModalitat": "14"
-            }
-        ]
-    },
-    {
-        "idActivitat": "400",
-        "idNivell": "10",
-        "nom": "Actividad 2010-2020 (2020-2020) 12:30",
-        "estat": "ACTIESTVIG",
-        "minPlaces": "10",
-        "maxPlaces": "20",
-        "edatMin": "2010",
-        "edatMax": "2020",
-        "activitatHasModalitats": [
-            {
-                "idModalitat": "12"
-            },
-            {
-                "idModalitat": "13"
-            },
-            {
-                "idModalitat": "14"
-            }
-        ]
-    }
-  ]
+  {
+    "idActivitat": "100",
+    "idNivell": "7",
+    "nom": "Actividad 2010-2020 (2020-2020) 09:00",
+    "estat": "ACTIESTVIG",
+    "minPlaces": "10",
+    "maxPlaces": "20",
+    "edatMin": "2010",
+    "edatMax": "2020",
+    "activitatHasModalitats": [
+      {
+        "idModalitat": "12"
+      },
+      {
+        "idModalitat": "13"
+      },
+      {
+        "idModalitat": "14"
+      }
+    ]
+  },
+  {
+    "idActivitat": "200",
+    "idNivell": "8",
+    "nom": "Actividad 2010-2020 (2020-2020) 10:00",
+    "estat": "ACTIESTVIG",
+    "minPlaces": "10",
+    "maxPlaces": "20",
+    "edatMin": "2010",
+    "edatMax": "2020",
+    "activitatHasModalitats": [
+      {
+        "idModalitat": "12"
+      },
+      {
+        "idModalitat": "13"
+      },
+      {
+        "idModalitat": "14"
+      }
+    ]
+  },
+  {
+    "idActivitat": "300",
+    "idNivell": "9",
+    "nom": "Actividad 2010-2020 (2020-2020) 11:30",
+    "estat": "ACTIESTVIG",
+    "minPlaces": "10",
+    "maxPlaces": "20",
+    "edatMin": "2010",
+    "edatMax": "2020",
+    "activitatHasModalitats": [
+      {
+        "idModalitat": "12"
+      },
+      {
+        "idModalitat": "13"
+      },
+      {
+        "idModalitat": "14"
+      }
+    ]
+  },
+  {
+    "idActivitat": "400",
+    "idNivell": "10",
+    "nom": "Actividad 2010-2020 (2020-2020) 12:30",
+    "estat": "ACTIESTVIG",
+    "minPlaces": "10",
+    "maxPlaces": "20",
+    "edatMin": "2010",
+    "edatMax": "2020",
+    "activitatHasModalitats": [
+      {
+        "idModalitat": "12"
+      },
+      {
+        "idModalitat": "13"
+      },
+      {
+        "idModalitat": "14"
+      }
+    ]
+  }
+]

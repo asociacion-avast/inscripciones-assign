@@ -336,6 +336,14 @@ def procesar_inscripciones(sorting_function, suffix=""):
                                                 actividades_nombre[interes],
                                             ),
                                         )
+
+                                        if interes == "1015":
+                                            # Cubrir franja de las 12:30 a las 13:30
+                                            horarios_por_socio[socio].append(10)
+
+                                        if interes == "1016":
+                                            # Cubrir franja de las 10:00 a las 11:00
+                                            horarios_por_socio[socio].append(9)
                                 else:
                                     graba_log(
                                         filename=f"sorteo/{socio}",
