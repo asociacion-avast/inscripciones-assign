@@ -118,8 +118,8 @@ except Exception:
                         ].lower()
 
                         if (
-                            "actividades".lower() in modalitat_nombre
-                            and "sin actividades".lower() not in modalitat_nombre
+                            "socio principal".lower() in modalitat_nombre
+                            or "socio hermano".lower() in modalitat_nombre
                         ):
                             graba_log(
                                 filename=f"sorteo/{id_socio}",
