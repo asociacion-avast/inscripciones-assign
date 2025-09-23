@@ -66,6 +66,7 @@ for socio in sociosjson:
                     if (
                         "socio principal".lower() in modalitat_nombre
                         or "socio hermano".lower() in modalitat_nombre
+                        or "hermano no socio".lower() in modalitat_nombre
                     ):
                         mis_socios[id_socio] = {}
                         fecha = dateutil.parser.parse(socio["persona"]["dataNaixement"])

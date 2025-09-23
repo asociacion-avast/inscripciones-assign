@@ -120,6 +120,7 @@ except Exception:
                         if (
                             "socio principal".lower() in modalitat_nombre
                             or "socio hermano".lower() in modalitat_nombre
+                            or "hermano no socio".lower() in modalitat_nombre
                         ):
                             graba_log(
                                 filename=f"sorteo/{id_socio}",
