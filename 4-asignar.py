@@ -338,13 +338,19 @@ def procesar_inscripciones(sorting_function, suffix=""):
                                             ),
                                         )
 
-                                        if interes == "1015":
+                                        if interes == "1139":
                                             # Cubrir franja de las 12:30 a las 13:30
                                             horarios_por_socio[socio].append(10)
+                                            inscripciones_por_socio[socio].append(
+                                                "1139"
+                                            )
 
-                                        if interes == "1016":
+                                        if interes == "1138":
                                             # Cubrir franja de las 10:00 a las 11:00
                                             horarios_por_socio[socio].append(9)
+                                            inscripciones_por_socio[socio].append(
+                                                "1138"
+                                            )
                                 else:
                                     graba_log(
                                         filename=f"sorteo/{socio}",
